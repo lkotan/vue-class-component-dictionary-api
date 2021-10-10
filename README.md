@@ -1,5 +1,6 @@
 # dictionary-app
 
+[Demo](https://vue-class-component-dictionary-api.vercel.app/)
 ## Project setup
 ```
 npm install

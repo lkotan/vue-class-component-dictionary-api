@@ -1,0 +1,84 @@
+html {
+    font-size: 10px;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: #8cc58c;
+    color: white;
+}
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.title {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+header {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+input,
+select {
+    width: 25rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 0.2rem solid white;
+    border-radius: 0.2rem;
+    outline: none;
+    background: #eaedea;
+}
+select {
+    margin-left: 2rem;
+    color: green;
+}
+input {
+    color: #8cc58c;
+}
+
+.cards {
+    width: 70%;
+    margin: 5rem;
+}
+.message {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+.card {
+    position: relative;
+}
+.card audio {
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+    height: 3rem;
+}
+.card span {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #6c2578;
+}
+.card__definitions > * {
+    font-size: 1.8rem;
+}
+.card__definitions {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #0d930d;
+    background: white;
+}
+.card__synonyms {
+    word-wrap: break-word;
+}
+
