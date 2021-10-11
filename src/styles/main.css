@@ -72,11 +72,16 @@ input {
     font-size: 1.8rem;
 }
 .card__definitions {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 2rem;
     border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
     color: #0d930d;
     background: white;
+}
+.card__definitions:hover{
+    box-shadow: 0.1rem 0.5rem 0.5rem #383838;
 }
 .card__synonyms {
     word-wrap: break-word;

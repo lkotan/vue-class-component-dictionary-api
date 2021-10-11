@@ -16,9 +16,9 @@
         v-for="(definition, index) in item.meanings[0].definitions"
         :key="index"
       >
-        <h3 class="card__definition">
+        <p class="card__definition">
           <span>Definition: </span> {{ definition["definition"] }}
-        </h3>
+        </p>
         <p class="card__example" v-if="definition['example']">
           <span>Example: </span> {{ definition["example"] }}
         </p>
